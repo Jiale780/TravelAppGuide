@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Information Details</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="css/InfoDetails.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="js/InfoDetails.js"></script>
+  </head>
+
+  <body>
+    <div id="Navigation">
+      <a href="index.html">
+        <button><- Home</button>
+      </a>
+    </div>
+
+    <div id="map"></div>
+      <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbqpTUGY1OMrD23BMRjpWHifG4TZLOogg&callback=initMap">
+      </script>
+      
+    <div id="infoDetails"></div>
+
+    <div id="descriptionSection">
+      <div id="sectionNotes">
+        <table id="table_Data">
+          <tr></tr>
+        </table>
+      </div>
+      <div id="blankSection"></div>
+      <div id="Notes">
+        <button id="btnNotes" onclick="pointingNotes()">Add Notes</button>
+      </div>
+    </div>
+  </body>
+    <script>generateNotes();</script>
+</html>

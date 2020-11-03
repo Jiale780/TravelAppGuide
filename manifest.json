@@ -1,0 +1,51 @@
+{
+  "name": "Travel Application",
+  "short_name": "Travel Application",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://cdn.glitch.com/02c38bfd-338e-4f87-bbf5-b33a141d9aed%2Ficon-72x72.png?v=1581178173257",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.glitch.com/02c38bfd-338e-4f87-bbf5-b33a141d9aed%2Ficon-96x96.png?v=1581178173619",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.glitch.com/02c38bfd-338e-4f87-bbf5-b33a141d9aed%2Ficon-128x128.png?v=1581178173152",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.glitch.com/02c38bfd-338e-4f87-bbf5-b33a141d9aed%2Ficon-144x144.png?v=1581178173642",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.glitch.com/02c38bfd-338e-4f87-bbf5-b33a141d9aed%2Ficon-152x152.png?v=1581178173445",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.glitch.com/02c38bfd-338e-4f87-bbf5-b33a141d9aed%2Ficon-192x192.png?v=1581178173199",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.glitch.com/02c38bfd-338e-4f87-bbf5-b33a141d9aed%2Ficon-256x256.png?v=1581178173186",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.glitch.com/02c38bfd-338e-4f87-bbf5-b33a141d9aed%2Ficon-512x512.png?v=1581178174212",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}

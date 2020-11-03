@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#Navigation {
+  background: black;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  height: 40px;
+}
+
+#Navigation > a > button {
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  padding: 6px;
+}
+
+#map {
+  height: 70%;
+  width: 99.8%;
+  border: 1.5px solid blue;
+}
+
+#infoDetails {
+  border: 1.5px solid blue;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1m;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#descriptionSection {
+  border: 1.5px solid blue;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#descriptionSection > #sectionNotes > #table_Data > tr {
+  text-align: left;
+  display: flex; 
+  flex-direction: column-reverse;
+}
+
+#descriptionSection > #blankSection {
+  background-color: white;
+  margin: 0 auto;
+  padding: 0px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+#descriptionSection > #Notes > #btnNotes {
+  width: 99%;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
